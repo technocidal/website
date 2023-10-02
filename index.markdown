@@ -2,8 +2,6 @@
 title: Home
 ---
 
-# {{ page.title }}
-
 <script>
   if (window.netlifyIdentity) {
 	window.netlifyIdentity.on("init", user => {
