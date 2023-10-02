@@ -1,0 +1,26 @@
+title: Technocidal
+email: hello@technocidal.com
+description: "Technocidal is created by me, Johannes Ebeling. I'm a father, software engineer and aspiring coffee snob."
+url: https://technocidal.com
+author:
+  name: Johannes Ebeling
+  email: hello@technocidal.com
+
+collections:
+  authors:
+    
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
