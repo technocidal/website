@@ -1,6 +1,7 @@
 ---
 title: Home
 ---
+<img class="home-profile" src="/assets/images/profile.png">
 
 <script>
   if (window.netlifyIdentity) {
