@@ -1,23 +1,25 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <link rel="stylesheet" href="/assets/css/pico.classless.min.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-    <header>
+    <header class="container">
     {% include navigation.html %}
     </header>
-    <main>
+    <main class="container">
     {{ content }}
     </main>
-    <script type="text/javascript" src="/assets/js/lightbox.js"></script>
+    <footer class="container">
+      <p style="text-align: center;">Made with Jekyll and Pico CSS</p>
+    </footer>
+    <script src="/assets/js/lightbox.js"></script>
     <link rel="stylesheet" href="/assets/css/lightbox.css">
   </body>
 </html>

@@ -1,7 +1,17 @@
 <nav>
-  {% for item in site.data.navigation.items %}
-    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
+  <ul>
+    <li><strong>Technocidal</strong></li>
+  </ul>
+  <ul>
+    {% for item in site.data.navigation.items %}
+    <li>
+      <a href="{{ site.baseurl }}{{ item.link }}"
+      {% if page.url == item.link %}
+        aria-current="page"
+      {% endif %}>
+        {{ item.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </nav>
