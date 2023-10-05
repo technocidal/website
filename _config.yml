@@ -9,7 +9,7 @@ author:
 collections:
   authors:
     output: true
-    
+
 defaults:
   - scope:
       path: ""
@@ -30,3 +30,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-spaceship

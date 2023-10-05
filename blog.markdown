@@ -18,17 +18,13 @@ title: Blog
 
 <section>
   <h1>Posts</h1>
+</section>
 
+<section>
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="post-list-element">
-        <article>
-          <hgroup>
-          <h2>{{ post.title }}</h2>
-          {{ post.excerpt }}
-          </hgroup>
-          <a href="{{ post.url }}">Read more…</a>
-        </article>
+        {% include post-card.html post=post %}
       </li>
     {% endfor %}
   </ul>

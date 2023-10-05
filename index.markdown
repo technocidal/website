@@ -16,13 +16,7 @@ title: Home
 <section>
 	<h2>Latest post</h2>
 	{% for post in site.posts limit:1 %}
-	<article>
-		<hgroup>
-		<h2>{{ post.title }}</h2>
-		{{ post.excerpt }}
-		</hgroup>
-		<a style="text-decoration: none;" href="{{ post.url }}">Read more…</a>
-	</article>
+	{% include post-card.html post=post %}
 	{% endfor %}
 </section>
 
