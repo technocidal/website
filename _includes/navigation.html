@@ -1,4 +1,24 @@
-<nav>
+<style>
+  .nav-expanded {
+    display: flex;
+  }
+
+  .nav-collapsed {
+    display: none;
+  }
+
+  @media screen and (max-width: 575px) {
+    .nav-collapsed {
+      display: flex;
+    }
+
+    .nav-expanded {
+      display: none;
+    }
+  }
+</style>
+
+<nav class="nav-expanded">
   <ul>
     <li><strong>Technocidal</strong></li>
   </ul>
@@ -13,5 +33,32 @@
       </a>
     </li>
     {% endfor %}
+  </ul>
+</nav>
+
+<nav class="nav-collapsed">
+  <ul>
+    <li><strong>Technocidal</strong></li>
+  </ul>
+  <ul>
+    <li>
+      <details class="dropdown">
+        <summary>
+          Menu
+        </summary>
+        <ul dir="rtl">
+          {% for item in site.data.navigation.items %}
+          <li>
+            <a href="{{ site.baseurl }}{{ item.link }}"
+            {% if page.url == item.link %}
+              aria-current="page"
+            {% endif %}>
+              {{ item.name }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+    </li>
   </ul>
 </nav>

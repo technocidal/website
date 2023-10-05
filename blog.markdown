@@ -16,18 +16,20 @@ title: Blog
   }
 </style>
 
-<h1>Latest Posts</h1>
+<section>
+  <h1>Posts</h1>
 
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li class="post-list-element">
-      <article>
-        <hgroup>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-        </hgroup>
-        <a href="{{ post.url }}">Read more…</a>
-      </article>
-    </li>
-  {% endfor %}
-</ul>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-list-element">
+        <article>
+          <hgroup>
+          <h2>{{ post.title }}</h2>
+          {{ post.excerpt }}
+          </hgroup>
+          <a href="{{ post.url }}">Read more…</a>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

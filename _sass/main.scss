@@ -1,2 +1,6 @@
 @use "pico-2/scss/pico.scss";
 @use "theme";
+
+.profile-picture {
+  border-radius: var(--pico-border-radius);
+}

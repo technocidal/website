@@ -1,27 +1,30 @@
 ---
 title: Home
 ---
-<article>
-	<div class="grid">
-		<img style="max-height: 15rem;" class="profile" src="/assets/images/profile.png">
+<section>
+	<article>
+		<div class="grid">
+			<img style="max-height: 15rem;" class="profile-picture" src="/assets/images/profile.png">
+			<hgroup>
+				<h2>My name is {{ site.author.name }}</h2>
+				<p>I'm a father, software engineer and aspiring coffee snob.</p>
+			</hgroup>
+		</div>
+	</article>
+</section>
+
+<section>
+	<h2>Latest post</h2>
+	{% for post in site.posts limit:1 %}
+	<article>
 		<hgroup>
-			<h2>My name is {{ site.author.name }}</h2>
-			<p>I'm a father, software engineer and aspiring coffee snob.</p>
+		<h2>{{ post.title }}</h2>
+		{{ post.excerpt }}
 		</hgroup>
-	</div>
-</article>
-
-## Latest post
-
-{% for post in site.posts limit:1 %}
-<article>
-	<hgroup>
-	<h2><a style="text-decoration: none;" href="{{ post.url }}">{{ post.title }}</a></h2>
-	{{ post.excerpt }}
-	</hgroup>
-	<a style="text-decoration: none;" href="{{ post.url }}">Read more…</a>
-</article>
-{% endfor %}
+		<a style="text-decoration: none;" href="{{ post.url }}">Read more…</a>
+	</article>
+	{% endfor %}
+</section>
 
 <script>
   if (window.netlifyIdentity) {
