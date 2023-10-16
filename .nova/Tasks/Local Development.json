@@ -1,0 +1,8 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/zsh\n\nbundle exec jekyll serve -l"
+    }
+  }
+}
