@@ -26,6 +26,8 @@ defaults:
     values:
       layout: "default"
 
+google_analytics: G-BNNY2F0WSN
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
