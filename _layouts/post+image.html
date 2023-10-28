@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% if page.image %}
+<section>
+  <div class="post-image-container">
+    <figure class="post-image-container">
+      <img class="post-image" src="//images.weserv.nl/?url=technocidal.com{{ page.image.path }}&h=480&output=jpg&q=85" />
+      <figcaption class="post-image-caption">Created by {{ page.image.author }}</figcaption>
+    </figure>
+  </div>
+</section>
+{% endif %}
+<section>
+  <h1>{{ page.title }}</h1>
+  <p>
+    {{ page.date | date_to_string }}
+    {% assign author = site.authors | where: 'name', page.author | first %}
+    {% if author %}
+      - <a href="{{ author.url }}">{{ author.display_name }}</a>
+    {% endif %}
+    {% include reading-time.html %}
+  </p>
+</section>
+<section>
+  {{ content }}
+</section>
