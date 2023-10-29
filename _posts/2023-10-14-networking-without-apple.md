@@ -3,9 +3,7 @@ layout: post+image
 title: Networking without Apple
 date: 2023-10-29T20:05:04.878Z
 author: johannes
-image:
-  author: <a href="//unsplash.com/@clemhlrdt">Clément Hélardot</a>
-  path: /assets/images/2023-10-14-networking-without-apple.jpg
+image: /assets/images/2023-10-14-networking-without-apple.jpg
 ---
 About a year ago, I took advantage of a fantastic deal on Amazon and purchased a new router. I had been planning to revamp my home network for some time. Our Wi-Fi speed and coverage were never satisfactory, and there were several dead spots throughout our apartment.
 

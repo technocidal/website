@@ -6,7 +6,9 @@ layout: default
   <div class="post-image-container">
     <figure class="post-image-container">
       <img class="post-image" src="//images.weserv.nl/?url=technocidal.com{{ page.image.path }}&h=480&output=jpg&q=85" />
+      {% if page.image.author %}
       <figcaption class="post-image-caption">Created by {{ page.image.author }}</figcaption>
+      {% endif %}
     </figure>
   </div>
 </section>
