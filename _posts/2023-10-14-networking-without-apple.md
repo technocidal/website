@@ -1,7 +1,7 @@
 ---
 layout: post+image
 title: Networking without Apple
-date: 2023-10-15T13:00:59.978Z
+date: 2023-10-29T20:05:04.878Z
 author: johannes
 image:
   author: <a href="//unsplash.com/@clemhlrdt">Clément Hélardot</a>
