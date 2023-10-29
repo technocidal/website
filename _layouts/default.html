@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     {% feed_meta %}
     {% seo %}
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
   </head>
   <body>
     <header class="container">
@@ -20,7 +17,7 @@
     {{ content }}
     </main>
     <footer class="container">
-      <p style="text-align: center;">Made with Jekyll and Pico CSS</p>
+      <p style="text-align: center;">Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://v2.picocss.com/docs">Pico CSS</a></p>
     </footer>
     <script src="/assets/js/lightbox.js"></script>
     <link rel="stylesheet" href="/assets/css/lightbox.css">
