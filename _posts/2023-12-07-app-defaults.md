@@ -55,6 +55,8 @@ Contacts.app
 ## 💬 Chat
 
 - [Slack](https://slack.com/)
+- WhatsApp
+- Messages.app
 
 ## 🔖 Bookmarks
 
