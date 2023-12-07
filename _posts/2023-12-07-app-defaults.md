@@ -6,100 +6,100 @@ author: johannes
 ---
 Inspired by [Hemispheric Views 097 - Duel of the Defaults!](https://listen.hemisphericviews.com/097) and this post by [Robb Knight](https://rknight.me/app-defaults/) I wanted to list all the apps I use sorted into the various categories as defined by Andrew:
 
-📨 Mail Client
+## 📨 Mail Client
 
 Mail.app
 
-📮 Mail Server
+## 📮 Mail Server
 
 [Fastmail](https://ref.fm/u29479296) - This is my referral link
 
-📝 Notes
+## 📝 Notes
 
 [Craft](https://www.craft.do/)
 
-✅ To-Do
+## ✅ To-Do
 
 [Things](https://culturedcode.com/things/)
 
-📷 iPhone Photo Shooting
+## 📷 iPhone Photo Shooting
 
 - [Halide](https://halide.cam/)
 - [Stops](https://apps.apple.com/us/app/stops/id1663636345)
 - Camera.app
 
-🟦 Photo Management
+## 🟦 Photo Management
 
 Photos.app
 
-📆 Calendar
+## 📆 Calendar
 
 Calendar.app
 
-📁 Cloud File Storage
+## 📁 Cloud File Storage
 
 iCloud Drive
 
-📖 RSS
+## 📖 RSS
 
 [Reeder](https://reederapp.com/)
 
-🙍🏻‍♂️ Contacts
+## 🙍🏻‍♂️ Contacts
 
 Contacts.app
 
-🌐 Browser
+## 🌐 Browser
 
 [Arc](https://arc.net/)
 
-💬 Chat
+## 💬 Chat
 
 - [Slack](https://slack.com/)
 
-🔖 Bookmarks
+## 🔖 Bookmarks
 
 Shortcut that adds stuff to a [Craft](https://www.craft.do/) doc
 
-📑 Read It Later
+## 📑 Read It Later
 
 [Omnivore](https://omnivore.app/)
 
-📜 Word Processing
+## 📜 Word Processing
 
 [Craft](https://www.craft.do/)
 
-📈 Spreadsheets
+## 📈 Spreadsheets
 
 Numbers.app
 
-📊 Presentations
+## 📊 Presentations
 
 Keynote.app
 
-🛒 Shopping Lists
+## 🛒 Shopping Lists
 
 [Bring!](https://www.getbring.com)
 
-🍴 Meal Planning
+## 🍴 Meal Planning
 
 [Paprika](https://www.paprikaapp.com/)
 
-💰 Budgeting and Personal Finance
+## 💰 Budgeting and Personal Finance
 
 [MoneyMoney](https://moneymoney-app.com/)
 
-📰 News
+## 📰 News
 
 Mastodon, [GROUND News](https://ground.news/)
 
-🎵 Music
+## 🎵 Music
 
 Apple Music
 
-🎤 Podcasts
+## 🎤 Podcasts
 
 [Overcast](https://overcast.fm/)
 
-🔐 Password Management
+## 🔐 Password Management
 
 [1Password](https://1password.com/)
