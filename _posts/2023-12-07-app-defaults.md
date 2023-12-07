@@ -25,7 +25,7 @@ Mail.app
 ## 📷 iPhone Photo Shooting
 
 - [Halide](https://halide.cam/)
-- [Stops](https://apps.apple.com/us/app/stops/id1663636345)
+- [Stops](https://apps.apple.com/us/app/stops/id1663636345/)
 - Camera.app
 
 ## 🟦 Photo Management
@@ -96,7 +96,7 @@ Mastodon, [GROUND News](https://ground.news/)
 
 ## 🎵 Music
 
-Apple Music
+Apple Music using [Marvis Pro](https://apps.apple.com/us/app/marvis-pro/id1447768809/)
 
 ## 🎤 Podcasts
 
