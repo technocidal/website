@@ -6,6 +6,11 @@
   border-radius: var(--pico-border-radius);
 }
 
+footer .profile-picture {
+  max-height: 5rem;
+  border-radius: 2.5rem;
+}
+
 .post-image-container {
   display: flex;
   flex-direction: column;
