@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/assets/css/lightbox.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script src="/assets/js/lightbox.js"></script>
+    <script src="https://kit.fontawesome.com/fefe90bf70.js" crossorigin="anonymous"></script>
     {% feed_meta %}
     {% seo %}
   </head>
@@ -18,11 +19,28 @@
     <main class="container">
     {{ content }}
     </main>
-    <footer class="container" style="text-align: center;">
-      <section>
+    <footer class="compress-footer">
+      <div class="profile">
         <img class="profile-picture" src="/assets/images/profile.png">
-      </section>
-      <p>📧 <a href="mailto:hello@technocidal.com">Contact Me</a> 👨‍💻 <a href="https://github.com/technocidal">GitHub</a> 🐘 <a href="https://mastodon.social/@technocidal" rel="me">Mastodon</a></p>
+        <div class="grid">
+          <label>
+            📧
+            <a href="mailto:hello@technocidal.com">Contact Me</a> 
+          </label>
+          <label>
+            👨‍💻
+            <a href="https://github.com/technocidal">GitHub</a> 
+          </label>
+          <label>
+            🐘
+            <a href="https://mastodon.social/@technocidal" rel="me">Mastodon</a>
+          </label>
+          <label>
+            <i class="fa-solid fa-rss"></i>
+            <a href="https://technocidal.com/feed.xml">Feed</a>
+          </label>
+        </div>
+      </div>
       <p>Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://v2.picocss.com/docs">Pico CSS</a></p>
     </footer>
   </body>
