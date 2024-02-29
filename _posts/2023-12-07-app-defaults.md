@@ -24,9 +24,9 @@ Mail.app
 
 ## 📷 iPhone Photo Shooting
 
-- [Halide](https://halide.cam/)
-- [Stops](https://apps.apple.com/us/app/stops/id1663636345/)
-- Camera.app
+* [Halide](https://halide.cam/)
+* [Stops](https://apps.apple.com/us/app/stops/id1663636345/)
+* Camera.app
 
 ## 🟦 Photo Management
 
@@ -50,13 +50,13 @@ Contacts.app
 
 ## 🌐 Browser
 
-[Arc](https://arc.net/)
+Safari.app
 
 ## 💬 Chat
 
-- [Slack](https://slack.com/)
-- [WhatsApp](https://whatsapp.com/)
-- Messages.app
+* [Slack](https://slack.com/)
+* [WhatsApp](https://whatsapp.com/)
+* Messages.app
 
 ## 🔖 Bookmarks
 
