@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 media_folder: 'assets/uploads'
 publish_mode: editorial_workflow
 collections:
@@ -37,19 +37,7 @@ collections:
       - { label: 'Short Name', name: 'name', widget: 'string' }
       - { label: 'Display Name', name: 'display_name', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }   
-  - name: 'pages'
-    label: 'Pages'
-    editor:
-      preview: false
-    files:
-      - label: 'About Page'
-        name: 'about'
-        file: 'about.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-          - { label: 'Body', name: 'body', widget: 'markdown' } 
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'config'
     label: 'Config'
     editor:
