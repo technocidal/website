@@ -1,7 +1,8 @@
 ---
 layout: post
 title: App Defaults
-date: 2023-12-07T19:30:23.935Z
+date: 2023-12-07
+last_modified_at: 2024-05-16
 author: johannes
 ---
 Inspired by [Hemispheric Views 097 - Duel of the Defaults!](https://listen.hemisphericviews.com/097) and this post by [Robb Knight](https://rknight.me/app-defaults/) I wanted to list all the apps I use sorted into the various categories as defined by Andrew:
@@ -54,17 +55,12 @@ Safari.app
 
 ## 💬 Chat
 
-* [Slack](https://slack.com/)
-* [WhatsApp](https://whatsapp.com/)
+* [Beeper](https://www.beeper.com)
 * Messages.app
 
-## 🔖 Bookmarks
+## 🔖 Bookmarks / Read It Later
 
-Shortcut that adds stuff to a [Craft](https://www.craft.do/) doc
-
-## 📑 Read It Later
-
-[Omnivore](https://omnivore.app/)
+Shortcut that adds stuff to a [Craft](https://www.craft.do/) document
 
 ## 📜 Word Processing
 
@@ -92,7 +88,7 @@ Keynote.app
 
 ## 📰 News
 
-Mastodon, [GROUND News](https://ground.news/)
+Mastodon
 
 ## 🎵 Music
 

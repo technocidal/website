@@ -1,6 +1,6 @@
 ---
 title: Building a home coffee setup
-date: 2022-07-25T19:00:00.833Z
+date: 2022-07-25
 author: johannes
 ---
 For many years now the way that I've been improving my coffee game was by taking

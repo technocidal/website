@@ -1,7 +1,7 @@
 ---
 layout: post+image
 title: Networking without Apple
-date: 2023-10-29T20:05:04.878Z
+date: 2023-10-29
 image: /assets/uploads/2023-10-14-networking-without-apple.jpg
 author: johannes
 ---

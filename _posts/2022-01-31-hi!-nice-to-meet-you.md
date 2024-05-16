@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hi! Nice to meet you.
-date: 2022-01-31T20:00:00.000Z
+date: 2022-01-31
 author: johannes
 ---
 I'm glad you've stumbled upon my fifth, no sixth, maybe tenth (who keeps count…) attempt at creating a personal website/blog.
