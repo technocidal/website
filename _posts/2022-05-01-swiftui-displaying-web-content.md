@@ -5,6 +5,12 @@ author: johannes
 ---
 SwiftUI was first released almost 3 years ago but it's still lacking some pretty fundamental functionality. I'm partial to the issue that you can't change the background color of list items in a list-style `Picker` or any layout specifics of that component to be honest. Admittedly this is a minor annoyance when you realise that there is no SwiftUI equivalent for `WKWebView`. Luckily the implementation of a simple UIKit wrapper is straight forward.
 
+> ## Update
+> 
+> Although this method works great for opening links to external content inside an app I'd highly discourage you from using it for that purpose. Due to the excellent research by [Felix Krause](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser) it became apparent that this is misused by a lot of companies to track users, attribute ads or personalize content. Developers should take this as a hint to switch to `SFSafariViewController` or open Safari outright. Felix goes into a lot more details so I **highly** encourage you to check out his work.
+> 
+> It's still completely fine to use this to show web content like HTML responses from your own servers, a Markdown preview screen for an editor or maybe a specific piece of UI was just easier to build using web technologies.
+
 ## Implementation
 
 To get things started open a new file and import `WebKit`. We need this to have access to `WKWebView` which is Apples replacement for `UIWebView`.
@@ -79,9 +85,3 @@ That's all there is to it. Be aware that `WKWebView` is not equivalent to `SFSaf
 Wrapping `WKWebView` like this gives you a quick and easy way to show web content inside your application.
 
 If you found this helpful, feel free to let me know. You can send me an E-Mail to <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> or find me on Mastodon [@technocidal](https://mastodon.social/@technocidal).
-
-## Update
-
-Although this method works great for opening links to external content inside an app I'd highly discourage you from using it for that purpose. Due to the excellent research by [Felix Krause](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser) it became apparent that this is misused by a lot of companies to track users, attribute ads or personalize content. Developers should take this as a hint to switch to `SFSafariViewController` or open Safari outright. Felix goes into a lot more details so I **highly** encourage you to check out his work.
-
-It's still completely fine to use this to show web content like HTML responses from your own servers, a Markdown preview screen for an editor or maybe a specific piece of UI was just easier to build using web technologies.
